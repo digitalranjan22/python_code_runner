@@ -26,3 +26,6 @@ To activate your virtual environment:
 
 # 5. Satrt Development Server
  $ python manage.py runserverx``
+
+
+*********************** 
