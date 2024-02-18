@@ -1,0 +1,7 @@
+<!-- templates/code_list.html -->
+<h2>Python Code List</h2>
+<ul>
+    {% for code in codes %}
+        <li><a href="{% url 'execute_code' code.id %}">{{ code.name }}</a></li>
+    {% endfor %}
+</ul>

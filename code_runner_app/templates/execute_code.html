@@ -1,0 +1,7 @@
+<!-- templates/execute_code.html -->
+<h2>Execute {{ python_code.name }}</h2>
+<form method="post" action="{% url 'execute_code' python_code.id %}">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Execute</button>
+</form>
