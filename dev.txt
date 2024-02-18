@@ -1,0 +1,2 @@
+they will see an open page with the list of Python code to run, through text boxes they can enter the parameters, and the clicking a button runs that particular Python code
+the Python code itself is configured to dump the output in a particular location. These output location are configured at the beginning. 
